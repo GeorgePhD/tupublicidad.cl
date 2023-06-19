@@ -4,31 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/main.css">
     <title>tupublicidad.cl</title>
     <meta name="descripción" content="en esta página ofrecemos publicidad para personas, profesionales y/o empresas.">
 </head>
 <body>
-    <button id="button" onclick="toggleDropdown()">Menu</button>
-    <div id="dropdownMenu">
-        <ul>
-          <li><a target="_blank" href="rancagua.html">Rancagua</a></li>
-          <li><a href="curico.html">Curicó</a></li>
-          <li><a href="romeral.html">Romeral</a></li>
-          <li><a href="peoresnada.html">Peor es nada</a></li>
-          <li><a href="mendoza.html">Mendoza</a></li>
-          <li><a href="santiago.html">Santiago</a></li>
-          <li><a href="lapunta.html">La punta</a></li>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Menu</button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="./html/rancagua.html">Rancagua</a></li>
+          <li><a class="dropdown-item" href="./html/curico.html">Curicó</a></li>
+          <li><a class="dropdown-item" href="./html/santiago.html">Santiago</a></li>
         </ul>
       </div>
+    <!-- NAVBAR STARTS HERE -->
+    <!-- <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Offcanvas navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav> -->
+    <!-- NAVBAR ENDS HERE -->
+   <!--  <button class="button" id="button" onclick="toggleDropdown()">Menu</button> -->
+    <!-- <div id="dropdownMenu">
+        <ul>
+          <li><a target="_blank" href="./html/rancagua.html">Rancagua</a></li>
+          <li><a href="./html/curico.html">Curicó</a></li>
+          <li><a href="./html/romeral.html">Romeral</a></li>
+          <li><a href="./html/peoresnada.html">Peor es nada</a></li>
+          <li><a href="./html/mendoza.html">Mendoza</a></li>
+          <li><a href="./html/santiago.html">Santiago</a></li>
+          <li><a href="./html/lapunta.html">La punta</a></li>
+        </ul>
+      </div> -->
     <h1>tupublicidad.cl</h1>
-    <h2>haz tus publicaciones sin necesidad de tener una página web.</h2>
+    <h2>publica tu negocio.</h2>
     
     <section class="flex-container">
         
-            <div class="devel0pme-box devel0pme-dark devel0pme"><h6>devel0pme</h6>
+            <div class="devel0pme-box devel0pme-dark devel0pme"><h6>Devel0pme</h6>
                 <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
+                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> Desarrollo web</a>
                 </p>
             </div>
             <div class="box"><h6>Miss_Fer</h6>
@@ -38,17 +90,17 @@
             </div>
             <div class="box"><h6>dan._sgphotos</h6>
                 <p>
-                    <a target="_blank" href ="https://www.instagram.com/dan._sgphotos"title="ir a la página"> fotografías</a>
+                    <a target="_blank" href ="https://www.instagram.com/dan._sgphotos"title="ir a la página"> Fotografías</a>
                 </p>
             </div>
             <div class="box"><h6>Soledad Ballesteros</h6>
                 <p>
-                    <a target="_blank" href ="https://www.instagram.com/soledad.ballesteros.psicologa"title="ir a la página"> psícologa, curicó.</a>
+                    <a target="_blank" href ="https://www.instagram.com/soledad.ballesteros.psicologa"title="ir a la página"> Psícologa, curicó.</a>
                 </p>
             </div>
-            <div class="box"><h6>deportes Chile</h6>
+            <div class="box"><h6>Deportes Chile</h6>
                 <p>
-                    <a target="_blank" href ="https://www.instagram.com/daniel_deporteschile"title="ir a la página"> Deportes chile</a>
+                    <a target="_blank" href ="https://www.instagram.com/daniel_deporteschile"title="ir a la página"> Tienda de Deportes</a>
                 </p>
             </div>
             <div class="box"><h6>José ignacio Martínez</h6>
@@ -58,7 +110,7 @@
             </div>
             <div class="box"><h6>Club manzanal Rancagua</h6>
                 <p>
-                    <a target="_blank" href ="https://www.instagram.com/manzanal_basquetbol_rancagua"title="ir a la página"> basquetbol</a>
+                    <a target="_blank" href ="https://www.instagram.com/manzanal_basquetbol_rancagua"title="ir a la página"> Basquetbol</a>
                 </p>
             </div>
             <div class="box"><h6>George</h6>
@@ -66,146 +118,48 @@
                     <a  href = "mailto: j.gamboafernandez@gmail.com" title="enviar email"> Profesor de inglés</a>
                 </p>
             </div>
-            <div class="box"><h6>devel0pme</h6>
+            <div class="box"><h6>Fotografías DS</h6>
                 <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
+                    <a target="_blank" href ="https://www.fotografiasds.com"title="ir a la página">ir al sitio</a>
                 </p>
             </div>
-            <div class="box"><h6>devel0pme</h6>
+            <div class="box"><h6>Publicidad</h6>
                 <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
+                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> Publica tu sitio</a>
                 </p>
             </div>
-            <div class="box"><h6>devel0pme</h6>
+            <div class="box"><h6>Publicidad</h6>
                 <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
+                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> Publica tu sitio</a>
                 </p>
             </div>
-            <div class="box"><h6>devel0pme</h6>
+            <div class="box"><h6>Publicidad</h6>
                 <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
+                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> Publica tu sitio</a>
                 </p>
             </div>
-            <div class="box"><h6>devel0pme</h6>
+            <div class="box"><h6>Publicidad</h6>
                 <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
+                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> Publica tu sitio</a>
                 </p>
             </div>
-            <div class="box"><h6>devel0pme</h6>
+            <div class="box"><h6>Publicidad</h6>
                 <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
+                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> Publica tu sitio</a>
                 </p>
             </div>
-            <div class="box"><h6>devel0pme</h6>
+            <div class="box"><h6>Publicidad</h6>
                 <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
+                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> Publica tu sitio</a>
                 </p>
             </div>
-            <div class="box"><h6>devel0pme</h6>
+            <div class="box"><h6>Publicidad</h6>
                 <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
+                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> Publica tu sitio</a>
                 </p>
             </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
-            <div class="box"><h6>devel0pme</h6>
-                <p>
-                    <a target="_blank" href ="https://www.instagram.com/devel0pme"title="ir a la página"> desarrollo web</a>
-                </p>
-            </div>
+            
+            
            
             
     </section>
@@ -227,11 +181,16 @@
             </div>
             
         </div>
-        <p>Conoce el plan para tu publicidad en nuestro instagram, whatsApp o vía email.</p>
+        <p>Envíanos un mensaje a nuestro instagram, whatsApp o vía email y conoce el plan para tu publicidad.
+            Siguenos y obtén un 10% de descuento en tu plan.
+        </p>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         
+  </body>
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-        <script src="main.js"></script>
+        <!-- <script src="./JavaScript/main.js"></script> -->
     </footer>
 </body>
 </html>

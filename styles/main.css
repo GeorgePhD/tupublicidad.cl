@@ -11,22 +11,25 @@ body {
     /* background:#f3e8ef; */
     
 }
-button {
-    position: absolute;
+
+
+
+/* .button {
+    position: relative;
     display: block;
     margin-left: 90%;
     width: 100px;
     border-radius: 5px;
     padding: 5px;
-}
+} */
 
-button:hover {
+/* button:hover {
     background-color: rgba(234, 62, 188, 0.487);
     transform: scale(1.2);
     color: white;
-}
+} */
 /* adding dropdown menu start */
-#dropdownMenu {
+/* #dropdownMenu {
     position: absolute;
     right: 5%;
     top: 60px;
@@ -37,12 +40,12 @@ button:hover {
     border-radius: 10px;
     transform: scale(1);
     
-  }
+  } */
  /*  #dropdownMenu:hover{
     background-color: antiquewhite;
   } */
   
-  #dropdownMenu ul {
+ /*  #dropdownMenu ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -61,11 +64,23 @@ button:hover {
   #dropdownMenu ul li a {
     text-decoration: none;
     color: #000;
-  }
+  } */
 /* adding dropdown menu end */
+
+#dropdownMenuButton1 {
+    background-color: rgba(255, 255, 255, 0.013);
+    margin: 5% 0 0 5%;
+    
+}
+.dropdown-menu {
+    background-color: rgb(255, 255, 255);
+}
+.dropdown-item:hover {
+    background-color: rgba(144, 226, 240, 0.245);
+}
 h1 {
     color:rgb(255, 255, 255);
-    margin-top: 23px;
+    margin-top: 2%;
     font-size: 50px;
     text-align: center;
     /* background: #dcddf6; */
@@ -185,7 +200,7 @@ footer p {
     width: min(95%, 10rem);
     padding-block: 1rem;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 5%;
     
 }
     
