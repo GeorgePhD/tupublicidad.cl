@@ -8,7 +8,7 @@
 }
 body {
     background: url("/projects/tupublicidad/assets/img/background.jpg");
-    /* background:#f3e8ef; */
+    
     
 }
 
@@ -89,7 +89,7 @@ h2 {
     color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
     /* background: #dcddf6; */
 }
 h6 {
